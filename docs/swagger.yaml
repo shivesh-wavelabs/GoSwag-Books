@@ -17,6 +17,13 @@ paths:
       consumes:
       - application/json
       description: Create a new book with the input paylod
+      parameters:
+      - description: New Book
+        in: body
+        name: Book
+        required: true
+        schema:
+          type: object
       produces:
       - application/json
       responses: {}
@@ -73,6 +80,13 @@ paths:
       consumes:
       - application/json
       description: Update a new book with the input paylod
+      parameters:
+      - description: Update Book
+        in: body
+        name: Book
+        required: true
+        schema:
+          type: object
       produces:
       - application/json
       responses: {}

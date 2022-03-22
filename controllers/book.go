@@ -1,11 +1,11 @@
 package controllers
 
 import (
-	"database/sql"
-	"encoding/json"
 	"GoSwag-Books/models"
 	"GoSwag-Books/repository/book"
 	"GoSwag-Books/utils"
+	"database/sql"
+	"encoding/json"
 	"log"
 	"net/http"
 	"strconv"
@@ -95,6 +95,7 @@ func (c Controller) GetBook(db *sql.DB) http.HandlerFunc {
 // @Tags books
 // @Accept  json
 // @Produce  json
+// @Param Book body object true "New Book"
 // @Router /addBook [post]
 func (c Controller) AddBook(db *sql.DB) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {
@@ -130,6 +131,7 @@ func (c Controller) AddBook(db *sql.DB) http.HandlerFunc {
 // @Tags books
 // @Accept  json
 // @Produce  json
+// @Param Book body object true "Update Book"
 // @Router /updateBook [put]
 func (c Controller) UpdateBook(db *sql.DB) http.HandlerFunc {
 	return func(w http.ResponseWriter, r *http.Request) {

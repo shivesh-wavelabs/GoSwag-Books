@@ -44,6 +44,17 @@ var doc = `{
                     "books"
                 ],
                 "summary": "Create a new book",
+                "parameters": [
+                    {
+                        "description": "New Book",
+                        "name": "Book",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "type": "object"
+                        }
+                    }
+                ],
                 "responses": {}
             }
         },
@@ -126,6 +137,17 @@ var doc = `{
                     "books"
                 ],
                 "summary": "Update book",
+                "parameters": [
+                    {
+                        "description": "Update Book",
+                        "name": "Book",
+                        "in": "body",
+                        "required": true,
+                        "schema": {
+                            "type": "object"
+                        }
+                    }
+                ],
                 "responses": {}
             }
         }
