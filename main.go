@@ -3,9 +3,9 @@ package main
 import (
 	"database/sql"
 	"fmt"
-	"go_backend/controllers"
-	"go_backend/driver"
-	"go_backend/models"
+	"GoSwag-Books/controllers"
+	"GoSwag-Books/driver"
+	"GoSwag-Books/models"
 	"log"
 	"net/http"
 
@@ -13,7 +13,7 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/subosito/gotenv"
 	httpSwagger "github.com/swaggo/http-swagger"
-	_ "go_backend/docs"
+	_ "GoSwag-Books/docs"
 )
 
 var books []models.Book

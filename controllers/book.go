@@ -3,9 +3,9 @@ package controllers
 import (
 	"database/sql"
 	"encoding/json"
-	"go_backend/models"
-	"go_backend/repository/book"
-	"go_backend/utils"
+	"GoSwag-Books/models"
+	"GoSwag-Books/repository/book"
+	"GoSwag-Books/utils"
 	"log"
 	"net/http"
 	"strconv"

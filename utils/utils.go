@@ -1,7 +1,7 @@
 package utils
 
 import (
-	"go_backend/models"
+	"GoSwag-Books/models"
 	"encoding/json"
 	"net/http"
 )

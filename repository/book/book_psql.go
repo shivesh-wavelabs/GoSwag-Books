@@ -1,7 +1,7 @@
 package bookRepository
 
 import (
-	"go_backend/models"
+	"GoSwag-Books/models"
 	"database/sql"
 )
 
