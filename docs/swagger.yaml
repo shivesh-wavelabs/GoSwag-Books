@@ -1,0 +1,82 @@
+basePath: /
+host: localhost:8000
+info:
+  contact:
+    email: shivesh560@gmail.com
+    name: API Support
+  description: This is a sample service for managing books
+  license:
+    name: Apache 2.0
+    url: http://www.apache.org/licenses/LICENSE-2.0.html
+  termsOfService: http://swagger.io/terms/
+  title: Books API
+  version: "1.0"
+paths:
+  /addBook:
+    post:
+      consumes:
+      - application/json
+      description: Create a new book with the input paylod
+      produces:
+      - application/json
+      responses: {}
+      summary: Create a new book
+      tags:
+      - books
+  /book/{id}:
+    get:
+      consumes:
+      - application/json
+      description: Get a specific book based on its ID
+      parameters:
+      - description: Book ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses: {}
+      summary: Get a specific book based on its ID
+      tags:
+      - books
+  /books:
+    get:
+      consumes:
+      - application/json
+      description: Get details of all books
+      produces:
+      - application/json
+      responses: {}
+      summary: Get details of all books
+      tags:
+      - books
+  /removeBook/{id}:
+    delete:
+      consumes:
+      - application/json
+      description: Delete a book with the input paylod
+      parameters:
+      - description: Book ID
+        in: path
+        name: id
+        required: true
+        type: integer
+      produces:
+      - application/json
+      responses: {}
+      summary: Delete book
+      tags:
+      - books
+  /updateBook:
+    put:
+      consumes:
+      - application/json
+      description: Update a new book with the input paylod
+      produces:
+      - application/json
+      responses: {}
+      summary: Update book
+      tags:
+      - books
+swagger: "2.0"
