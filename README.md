@@ -20,3 +20,13 @@ Install Go and add it to the PATH.
 # Get All Books
 
 ![GetBooks-SwaggerUI](https://user-images.githubusercontent.com/87301008/159532713-c1fba193-3cba-436b-86bc-d1695ae6bc85.png)
+
+# Post a Book
+
+![PostBook SwaggerUI](https://user-images.githubusercontent.com/87301008/159539070-0b8ba841-1d81-4b76-8db1-772043290639.png)
+
+# Update a Book
+
+![UpdateBook SwaggerUI](https://user-images.githubusercontent.com/87301008/159539146-ed6c0942-3f6b-4951-804a-ce396f0b1351.png)
+
+
