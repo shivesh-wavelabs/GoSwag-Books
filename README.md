@@ -29,4 +29,9 @@ Install Go and add it to the PATH.
 
 ![UpdateBook SwaggerUI](https://user-images.githubusercontent.com/87301008/159539146-ed6c0942-3f6b-4951-804a-ce396f0b1351.png)
 
+# Delete a Book
+
+![DeleteBook SwaggerUI](https://user-images.githubusercontent.com/87301008/159539625-875df645-7fb5-424c-9d6c-503261f4cb42.png)
+
+
 
