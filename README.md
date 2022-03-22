@@ -5,7 +5,7 @@ Golang backend with Postgres DB
 Install Go and add it to the PATH.
 
 # Steps to get started
-1. `go mod init`
+1. `go mod init GoSwag-Books`
 2. `go mod tidy`
 3. `go run main.go`
 
