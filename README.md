@@ -11,3 +11,12 @@ Install Go and add it to the PATH.
 
 # To Access API Endpoints
 1. http://localhost:8000/swagger/index.html
+
+# Swagger Ui
+
+![swaggerUI-books](https://user-images.githubusercontent.com/87301008/159532649-3a30551b-3c59-4d3e-9435-35a1181f609e.png)
+
+
+# Get All Books
+
+![GetBooks-SwaggerUI](https://user-images.githubusercontent.com/87301008/159532713-c1fba193-3cba-436b-86bc-d1695ae6bc85.png)
